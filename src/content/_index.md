@@ -43,11 +43,13 @@ toc: false
 {{< cards >}}
   {{< card link="introduction" title="Introduction" icon="book-open" subtitle="Visit here for an introduction to the project." >}}
   {{< card link="eda" title="Data Prep/EDA" icon="clipboard" subtitle="Visit here to learn about the data." >}}
+{{< /cards >}}
+{{< cards >}}
   {{< card link="models" title="Models" icon="refresh" subtitle="Visit here to learn about neuroevolution." >}}
   {{< card link="results" title="Results" icon="trending-up" subtitle="Visit here for to see the evolved models." >}}
 {{< /cards >}}
-{{< cards cols="1" >}}
-  {{< card link="conclusion" title="Conclusion" icon="check-circle" subtitle="Visit here for the key outcomes and conclusions of the project." >}}
+{{< cards >}}
+  {{< card link="conclusion" title="Conclusion" icon="check-circle" subtitle="Visit here for the key learnings of the project." >}}
 {{< /cards >}}
 
 ## This project used the following open source libraries:
