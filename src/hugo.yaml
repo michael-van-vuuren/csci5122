@@ -57,18 +57,21 @@ menu:
     - name: Models
       pageRef: /models
       weight: 3
+    - name: Results
+      pageRef: /results
+      weight: 4
     - name: Conclusion
       pageRef: /conclusion
-      weight: 4
+      weight: 5
     - name: About Me
       pageRef: /about
-      weight: 5
-    - name: Search
       weight: 6
+    - name: Search
+      weight: 7
       params:
         type: search
     - name: GitHub
-      weight: 7
+      weight: 8
       url: "https://github.com/michael-van-vuuren"
       params:
         icon: github
