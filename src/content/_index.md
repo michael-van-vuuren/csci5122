@@ -3,11 +3,11 @@ title:
 toc: false
 ---
 
-## CSCI 5612 Semester Project
+## CSCI 5122 Semester Project
 
 ![Splash](/splash.png)
 
-Get started by visiting the introduction page.
+Hiiii
 
 {{< cards >}}
   {{< card link="introduction" title="Introduction" icon="book-open" subtitle="Visit here for an introduction to the project and visualizations." >}}

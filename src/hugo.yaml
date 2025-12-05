@@ -1,5 +1,5 @@
 # Configuration
-title: CSCI5612
+title: CSCI5122
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -20,7 +20,7 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: CSCI5612
+    title: CSCI5122
 
 module:
   hugoVersion:
