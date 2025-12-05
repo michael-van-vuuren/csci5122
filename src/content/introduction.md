@@ -11,9 +11,13 @@ type: introduction
 
 
 
-## NeuroEvolution of Augmenting Topologies (NEAT)
+## NeuroEvolution of Augmenting Topologies
 
-
+![](/images/introduction/NE.png)
+![](/images/introduction/NE-steps.png)
+![](/images/introduction/NEAT.png)
+![](/images/introduction/NEAT-benefits-downsides.png)
+![](/images/introduction/NEAT-process.png)
 
 ## The Challenge
 
