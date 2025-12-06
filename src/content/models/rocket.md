@@ -109,7 +109,7 @@ min_species_size = 2
 
 ## The Inputs & Outputs
 
-As was discussed in the [Data & Prep section](https://michael-van-vuuren.github.io/csci5122/eda/), at each time step in the simulation, the rocket records the following state variables:
+As was discussed in the [Data & Prep tab](https://michael-van-vuuren.github.io/csci5122/eda/), at each time step in the simulation, the rocket records the following state variables:
 >1. x-position
 >2. y-position
 >3. x-velocity
@@ -196,6 +196,10 @@ def fitness_function(rocket):
 ```
 
 {{% /details %}}
+
+## Results
+
+Visit the [Results tab](https://michael-van-vuuren.github.io/csci5122/results/) to see the networks NEAT discovers.
 
 ## Links
 

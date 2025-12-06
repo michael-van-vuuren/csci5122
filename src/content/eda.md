@@ -24,7 +24,7 @@ At the same time, the rocket can take any combination of three actions:
 
 These actions can be chosen individually or simultaneously. For example, the rocket could both apply thrust and rotate left at the same time.
  
-The goal of the agent controlling the rocket is to learn a policy, which is a mapping from states to action probabilities, that enables it to land safely on the platform. In this case, the dataset consists of the rocket’s state variables (a 7D vector) as **features** and the action probabilities (a 3D vector) as **outputs**. Unlike traditional supervised learning, there are no ground truth labels (if the goal were instead to compare the neuroevolved policy to a reinforcement learning or expert policy, those policies would serve as the ground truth labels). Effective controllers emerge through the neuroevolution process, which explores the solution space and gradually selects for successful strategies.
+The goal of the agent controlling the rocket is to learn a policy, which is a mapping from states to action probabilities, that enables it to land safely on the platform (the black rectangle in the center of the picture above). In this case, the dataset consists of the rocket’s state variables (a 7D vector) as **features** and the action probabilities (a 3D vector) as **outputs**. Unlike traditional supervised learning, there are no ground truth labels (if the goal were instead to compare the neuroevolved policy to a reinforcement learning or expert policy, those policies would serve as the ground truth labels). Effective controllers emerge through the neuroevolution process, which explores the solution space and gradually selects for successful strategies.
 
 ## Data Cleaning
 
