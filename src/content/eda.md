@@ -45,6 +45,3 @@ def get_inputs(self):
 ```
 
 ![](/images/dataprep/data-io.png)
-
-## Links
-

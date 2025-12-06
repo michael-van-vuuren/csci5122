@@ -200,6 +200,3 @@ def fitness_function(rocket):
 ## Results
 
 Visit the [Results tab](https://michael-van-vuuren.github.io/csci5122/results/) to see the networks NEAT discovers.
-
-## Links
-

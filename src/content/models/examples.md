@@ -150,6 +150,3 @@ The following GIF shows, for each generation, the highest fitness child networks
 ![](/images/models/iris.gif)
 
 Over successive generations, the fitness of the best performing networks increases steadily, eventually approaching an asymptote at 117.0. The networks do not reach the perfect fitness of 120.0 because a regularization term is applied to each network’s fitness score, which subtracts points based on the number of connections to encourage simpler, more efficient network structures.
-
-## Links
-

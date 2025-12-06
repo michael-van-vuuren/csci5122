@@ -68,3 +68,7 @@ In this project, [NEAT-Python](https://neat-python.readthedocs.io/en/latest/), a
 2. Evolve a policy network to autonomously land a simulated rocket.
 3. Test and evaluate control strategies in a simplified Pygame simulation.
 4. Configure and apply NEAT to improve network performance.
+
+## The Code
+
+All of the code can be found in the following GitHub repository: https://github.com/michael-van-vuuren/csci5122-workspace/
