@@ -9,18 +9,18 @@ math: true
 ![](/images/dataprep/data-scene.png)
 
 At each time step in the simulation, the rocket records the following state variables:
->- x-position
->- y-position
->- x-velocity
->- y-velocity
->- angle
->- angular velocity
->- wind sensor reading
+>1. x-position
+>2. y-position
+>3. x-velocity
+>4. y-velocity
+>5. angle
+>6. angular velocity
+>7. wind sensor reading
 
 At the same time, the rocket can take any combination of three actions:
->- apply thrust
->- rotate left
->- rotate right
+>1. apply thrust
+>2. rotate left
+>3. rotate right
 
 These actions can be chosen individually or simultaneously. For example, the rocket could both apply thrust and rotate left at the same time.
  

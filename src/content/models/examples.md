@@ -9,13 +9,13 @@ weight: 1
 
 ## The Model
 
-For these example problems, the NEAT program is set up with a population of 300 networks. Each network starts simple: all input and output nodes are fully connected, and there are no hidden nodes at first. Over time, structural mutations let the networks grow by adding or removing nodes and connections. The weights and biases of connections also evolve according to pre-set mutation rates.
+For these example problems, the NEAT program is set up with a population of 300 networks. Each network starts simple: all input and output nodes are fully connected, and there are no hidden nodes at first. Over time, structural mutations let the networks grow by adding or removing nodes and connections. The weights and biases of connections also evolve according to configured mutation rates.
+
+### Configuration
 
 Each genome uses a sigmoid activation function by default, but that can change to ReLU when mutated. The outputs from multiple connections are summed together, like in a usual neural network. To maintain diversity, networks are grouped into species based on a compatibility threshold, which decides when two networks are different enough to be part of two different species.
 
 The algorithm also monitors stagnation to prevent progress from stalling and uses elitism and survival thresholds to ensure that the strongest networks in each species carry over to the next generation. The selection of high fitness individuals for crossing and carry over allows the fitness of the networks to improve and eventually converge over time. The mutation of each genome allows NEAT to explore a variety of solutions, helping it get out of local minima. 
-
-### Configuration
 
 The file used to configure the NEAT program is long, but if you are interested, check below:
 
@@ -133,7 +133,7 @@ The network has 4 input nodes, corresponding to the four features of each Iris f
 
 ### The Outputs
 
-There are 3 output nodes, one for each Iris species (Setosa, Versicolor, Virginica). The network predicts the species by producing the highest output value among the three nodes.
+There are 3 output nodes, one for each Iris species (Setosa, Versicolor, Virginica). The network predicts the species by producing the highest output value among the three nodes. Notice that we do not use a softmax function, even though there are three classes. Through evolution, the network instead learns to use the raw output values directly for making predictions (softmax can be integrated into the initial models as well if desired).
 
 ### The Fitness Function
 
