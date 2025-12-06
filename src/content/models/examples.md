@@ -7,25 +7,25 @@ math: true
 weight: 1
 ---
 
-## The model
+## The Model
 
 
 
 ## XOR
 
-### The inputs
+### The Inputs
 
 
 
-### The outputs
+### The Outputs
 
 
 
-### The fitness function
+### The Fitness Function
 
 
 
-### Hyperparameters
+### Configuration
 
 
 
@@ -35,19 +35,19 @@ weight: 1
 
 ## Iris
 
-### The inputs
+### The Inputs
 
 
 
-### The outputs
+### The Outputs
 
 
 
-### The fitness function
+### The Fitness Function
 
 
 
-### Hyperparameters
+### Configuration
 
 
 

@@ -42,7 +42,7 @@ toc: false
 
 {{< cards >}}
   {{< card link="introduction" title="Introduction" icon="book-open" subtitle="Visit here for an introduction to the project." >}}
-  {{< card link="eda" title="Data Prep/EDA" icon="clipboard" subtitle="Visit here to learn about the data." >}}
+  {{< card link="eda" title="Data & Prep" icon="clipboard" subtitle="Visit here to learn about the data." >}}
 {{< /cards >}}
 {{< cards >}}
   {{< card link="models" title="Models" icon="refresh" subtitle="Visit here to learn about neuroevolution." >}}

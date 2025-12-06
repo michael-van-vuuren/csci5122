@@ -7,23 +7,23 @@ weight: 2
 math: true
 ---
 
-## The model
+## The Model
 
 
 
-## The inputs
+## The Inputs
 
 
 
-## The outputs
+## The Outputs
 
 
 
-## The fitness function
+## The Fitness Function
 
 
 
-## Hyperparameters
+## Configuration
 
 
 
