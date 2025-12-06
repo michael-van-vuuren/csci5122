@@ -1,5 +1,5 @@
 ---
-title: Data Preparation & Exploratory Data Analysis (EDA)
+title: Data & Preparation
 type: eda
 math: true
 ---

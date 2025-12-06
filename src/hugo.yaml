@@ -51,7 +51,7 @@ menu:
     - name: Introduction
       pageRef: /introduction
       weight: 1
-    - name: Data Prep/EDA
+    - name: Data & Prep
       pageRef: /eda
       weight: 2
     - name: Models

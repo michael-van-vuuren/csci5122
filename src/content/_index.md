@@ -52,7 +52,7 @@ toc: false
   {{< card link="conclusion" title="Conclusion" icon="check-circle" subtitle="Visit here for the key learnings of the project." >}}
 {{< /cards >}}
 
-## This project used the following open source libraries:
+## This project used these open source libraries:
 
 1. **NEAT-Python**, for neuroevolution: https://neat-python.readthedocs.io/en/latest/
 2. **Pygame**, for simulating the rocket: https://www.pygame.org/docs/
